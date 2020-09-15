@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Biology notes | Science web portal: Shayan Saeed</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Web browser portal where my science teachers can easily check my homework and read my notes via high quality images and text">
+        <meta name="application-name" content="Science notes and homework portal">
+        <meta name="author" content="Shayan Saeed">
+    </head>
+    <body>
+        <h1>Biology Notes</h1>
+        <hr>
+        <img src="Pictures/bio0.jpeg">
+        <br><hr>
+        <img src="Pictures/bio1.jpeg">
+        <br><hr>
+        <img src="Pictures/bio2.jpeg">
+        <br><hr>
+        <img src="Pictures/bio3.jpeg">
+        <br><hr>
+        <img src="Pictures/bio4.jpeg">
+        <br><hr>
+        <img src="Pictures/bio5.jpeg">
+        <br><hr>
+        <img src="Pictures/bio6.jpeg">
+        <br><hr>
+        <img src="Pictures/bio7.jpeg">
+        <br><hr>
+        <img src="Pictures/bio8.jpeg">
+        <br><hr>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <a href="start.html">
+            <button>Back</button>
+        </a>
+        <script>
+            //Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+        </script>
+    </body>
+</html>
